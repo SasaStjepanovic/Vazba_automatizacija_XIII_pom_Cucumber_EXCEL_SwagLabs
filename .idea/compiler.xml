@@ -11,6 +11,7 @@
         <module name="Vazba_automatizacija_XIII_pom_TestNG_EXCEL_SwagLabs" />
         <module name="Vazba_automatizacija_XIII" />
         <module name="POM" />
+        <module name="Vazba_automatizacija_XIII_pom_TestNG_Cucumber_EXCEL_SwagLabs" />
       </profile>
     </annotationProcessing>
   </component>
