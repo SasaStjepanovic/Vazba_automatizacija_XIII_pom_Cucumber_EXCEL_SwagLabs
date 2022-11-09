@@ -119,7 +119,8 @@ public class BasePage {
         if(yesNo.equalsIgnoreCase("YES")) {
             File file = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
             long finish = System.currentTimeMillis();
-            FileUtils.copyFile(file, new File("src/results/screenshots/" + name + "_" +finish+ ".png"));
+//            FileUtils.copyFile(file, new File("src/results/screenshots/" + name + "_" +finish+ ".png"));
+            FileUtils.copyFile(file, new File("src/results/screenshots/" + name + ".png"));
         }
     }
 

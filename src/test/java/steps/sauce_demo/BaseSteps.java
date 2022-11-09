@@ -28,14 +28,14 @@ public class BaseSteps extends BaseTest {
     public void setup() throws Exception {
         init(browser);
         openApp(env);
-//        new BasePage(driver).reportScreenshot(ScrShootName, ScrShootDesc, ScrYesOrNo);
+        new BasePage(driver).reportScreenshot(ScrShootName, ScrShootDesc, ScrYesOrNo);
+
     }
 
     @After
-    public void tearDown() {
+    public void tearDown() throws IOException {
         quit();
     }
-
 
     @Given("I am logged in")
     public void iAmLoggedInANDAND() throws InterruptedException {
